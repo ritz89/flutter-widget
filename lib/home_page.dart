@@ -5,6 +5,14 @@ class Homepage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      body: Container(
+        child: Center(
+            child: Text(
+          "Halo Dunia",
+          style: TextStyle(color: Colors.amber, fontWeight: FontWeight.bold),
+        )),
+      ),
+    );
   }
 }
